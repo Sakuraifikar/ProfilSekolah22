@@ -63,7 +63,7 @@
                                 android:layout_height="wrap_content"
                                 android:layout_gravity="center"
                                 android:gravity="center"
-                                android:text="PROFIL"
+                                android:text="PROFILE"
                                 android:textColor="#000"
                                 android:textSize="20dp"
                                 android:textStyle="bold"/>
