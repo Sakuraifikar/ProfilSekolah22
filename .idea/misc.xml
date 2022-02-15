@@ -6,10 +6,15 @@
         <entry key="..\:/Users/YPT/AndroidStudioProjects/ProfilSekolah22/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1125" />
         <entry key="..\:/Users/YPT/AndroidStudioProjects/ProfilSekolah22/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1125" />
         <entry key="..\:/Users/YPT/AndroidStudioProjects/ProfilSekolah22/app/src/main/res/layout/activity_backup.xml" value="0.16" />
+        <entry key="..\:/Users/YPT/AndroidStudioProjects/ProfilSekolah22/app/src/main/res/layout/activity_ekskul.xml" value="0.12681159420289856" />
         <entry key="..\:/Users/YPT/AndroidStudioProjects/ProfilSekolah22/app/src/main/res/layout/activity_fasilitas.xml" value="0.13269927536231885" />
-        <entry key="..\:/Users/YPT/AndroidStudioProjects/ProfilSekolah22/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/YPT/AndroidStudioProjects/ProfilSekolah22/app/src/main/res/layout/activity_galeri.xml" value="0.12681159420289856" />
+        <entry key="..\:/Users/YPT/AndroidStudioProjects/ProfilSekolah22/app/src/main/res/layout/activity_guru.xml" value="0.2" />
+        <entry key="..\:/Users/YPT/AndroidStudioProjects/ProfilSekolah22/app/src/main/res/layout/activity_main.xml" value="0.16" />
+        <entry key="..\:/Users/YPT/AndroidStudioProjects/ProfilSekolah22/app/src/main/res/layout/activity_perpus.xml" value="0.12681159420289856" />
         <entry key="..\:/Users/YPT/AndroidStudioProjects/ProfilSekolah22/app/src/main/res/layout/activity_profil.xml" value="0.1" />
         <entry key="..\:/Users/YPT/AndroidStudioProjects/ProfilSekolah22/app/src/main/res/layout/activity_profil2.xml" value="0.13269927536231885" />
+        <entry key="..\:/Users/YPT/AndroidStudioProjects/ProfilSekolah22/app/src/main/res/layout/activity_splash_screen.xml" value="0.2" />
       </map>
     </option>
   </component>

@@ -12,10 +12,32 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ProfilSekolah2">
         <activity
-            android:name=".backupActivity"
+            android:name=".MainActivity"
+            android:exported="true"></activity>
+        <activity
+            android:name=".GaleriActivity"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".FasilitasActivity"
+            android:exported="false" />
+        <activity
+            android:name=".GuruActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PerpusActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EkskulActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ProfilActivity"
+            android:exported="false" />
+        <activity
+            android:name=".backupActivity"
+            android:exported="false" />
+
+
+        <activity android:name=".SplashScreenActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
