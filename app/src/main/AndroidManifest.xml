@@ -12,6 +12,16 @@
             android:supportsRtl="true"
             android:theme="@style/Theme.ProfilSekolah2">
         <activity
+                android:name=".AlbumpmrActivity"
+                android:exported="false" />
+        <activity
+                android:name=".AlbumpramukaActivity"
+                android:exported="false" />
+        <activity
+                android:name=".AlbumhutriActivity"
+                android:exported="false"
+                android:label="@string/title_activity_albumhutri" />
+        <activity
                 android:name=".PmrActivity"
                 android:exported="false" />
         <activity

@@ -23,22 +23,22 @@
 
 
                     <com.smarteist.autoimageslider.SliderView
-                        android:id="@+id/image_slider"
-                        android:layout_width="match_parent"
-                        android:layout_height="188dp"
-                        app:sliderAnimationDuration="1200"
-                        app:sliderAutoCycleDirection="back_and_forth"
-                        app:sliderAutoCycleEnabled="true"
-                        app:sliderIndicatorAnimationDuration="700"
-                        app:sliderIndicatorGravity="center_horizontal|bottom"
-                        app:sliderIndicatorMargin="15dp"
-                        app:sliderIndicatorOrientation="horizontal"
-                        app:sliderIndicatorPadding="3dp"
-                        app:sliderIndicatorRadius="2dp"
-                        app:sliderIndicatorSelectedColor="#5A5A5A"
-                        app:sliderIndicatorUnselectedColor="#FFF"
-                        app:sliderScrollTimeInSec="2"
-                        app:sliderStartAutoCycle="true" />
+                            android:id="@+id/image_slider"
+                            android:layout_width="match_parent"
+                            android:layout_height="188dp"
+                            app:sliderAnimationDuration="1200"
+                            app:sliderAutoCycleDirection="back_and_forth"
+                            app:sliderAutoCycleEnabled="true"
+                            app:sliderIndicatorAnimationDuration="700"
+                            app:sliderIndicatorGravity="center_horizontal|bottom"
+                            app:sliderIndicatorMargin="15dp"
+                            app:sliderIndicatorOrientation="horizontal"
+                            app:sliderIndicatorPadding="3dp"
+                            app:sliderIndicatorRadius="2dp"
+                            app:sliderIndicatorSelectedColor="#5A5A5A"
+                            app:sliderIndicatorUnselectedColor="#FFF"
+                            app:sliderScrollTimeInSec="2"
+                            app:sliderStartAutoCycle="true" />
 
                 </RelativeLayout>
 

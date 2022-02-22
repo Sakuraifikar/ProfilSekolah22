@@ -3,10 +3,18 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/LKS-02/StudioProjects/ProfilSekolah22/app/src/main/res/drawable/vie_bg.xml" value="0.18796296296296297" />
+        <entry key="..\:/Users/LKS-02/StudioProjects/ProfilSekolah22/app/src/main/res/drawable/view_bg.xml" value="0.725" />
+        <entry key="..\:/Users/LKS-02/StudioProjects/ProfilSekolah22/app/src/main/res/layout/activity_albumhutri.xml" value="0.18" />
+        <entry key="..\:/Users/LKS-02/StudioProjects/ProfilSekolah22/app/src/main/res/layout/activity_albumpmr.xml" value="0.19739583333333333" />
+        <entry key="..\:/Users/LKS-02/StudioProjects/ProfilSekolah22/app/src/main/res/layout/activity_albumpramuka.xml" value="0.19739583333333333" />
         <entry key="..\:/Users/LKS-02/StudioProjects/ProfilSekolah22/app/src/main/res/layout/activity_ekskul.xml" value="0.12" />
+        <entry key="..\:/Users/LKS-02/StudioProjects/ProfilSekolah22/app/src/main/res/layout/activity_futsal.xml" value="0.19739583333333333" />
         <entry key="..\:/Users/LKS-02/StudioProjects/ProfilSekolah22/app/src/main/res/layout/activity_galeri.xml" value="0.1" />
         <entry key="..\:/Users/LKS-02/StudioProjects/ProfilSekolah22/app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="..\:/Users/LKS-02/StudioProjects/ProfilSekolah22/app/src/main/res/layout/activity_osis.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/LKS-02/StudioProjects/ProfilSekolah22/app/src/main/res/layout/activity_pmr.xml" value="0.19739583333333333" />
+        <entry key="..\:/Users/LKS-02/StudioProjects/ProfilSekolah22/app/src/main/res/layout/activity_pramuka.xml" value="0.1" />
         <entry key="..\:/Users/LKS-02/StudioProjects/ProfilSekolah22/app/src/main/res/layout/activity_splash_screen.xml" value="0.19739583333333333" />
         <entry key="..\:/Users/LKS-02/StudioProjects/ProfilSekolah22/app/src/main/res/layout/slider_item.xml" value="0.19739583333333333" />
         <entry key="..\:/Users/YPT/AndroidStudioProjects/ProfilSekolah22/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1125" />
