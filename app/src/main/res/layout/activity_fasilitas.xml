@@ -1,17 +1,192 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".FasilitasActivity">
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="Fasilitas"
-        android:gravity="center"
-        android:textSize="20dp"/>
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
 
+        <GridLayout
+                android:layout_gravity="center_horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:alignmentMode="alignMargins"
+                android:columnCount="1">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+<!--            FASILITAS 1-->
+            <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="170dp"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="12dp"
+                    android:layout_marginBottom="12dp">
+
+                <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/perpustakaan18"/>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="12dp"
+                    android:layout_marginBottom="12dp">
+
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/black"
+                        android:textSize="10dp"
+                        android:textStyle="bold"
+                        android:text="PERPUSTAKAAN"/>
+
+                <TextView
+                        android:textAlignment="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginTop="20dp"
+                        android:textColor="@color/black"
+                        android:textSize="10sp"
+                        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Suscipit tellus mauris a diam maecenas sed enim ut sem. Nec nam aliquam sem et. Mattis molestie a iaculis at erat. Ipsum faucibus vitae aliquet nec ullamcorper. Consequat ac felis donec et odio. Duis at tellus at urna condimentum. Nec ultrices dui sapien eget. Pharetra et ultrices neque ornare aenean euismod. Ut pharetra sit amet aliquam id diam maecenas ultricies. Pellentesque pulvinar pellentesque habitant morbi tristique senectus et. Elit ut aliquam purus sit amet luctus. Sit amet nisl purus in mollis nunc sed id. Vitae aliquet nec ullamcorper sit. At ultrices mi tempus imperdiet nulla malesuada pellentesque. At consectetur lorem donec massa sapien. Eu lobortis elementum nibh tellus molestie nunc non blandit massa. Cursus metus aliquam eleifend mi. Quis imperdiet massa tincidunt nunc pulvinar sapien et."/>
+
+            </androidx.cardview.widget.CardView>
+<!--            PENUTUP FASILITAS 1-->
+
+            <!--            FASILITAS 2-->
+            <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="170dp"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="12dp"
+                    android:layout_marginBottom="12dp">
+
+                <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/labkomputer"/>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="12dp"
+                    android:layout_marginBottom="12dp">
+
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/black"
+                        android:textSize="10dp"
+                        android:textStyle="bold"
+                        android:text="LAB KOMPUTER"/>
+
+                <TextView
+                        android:textAlignment="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginTop="20dp"
+                        android:textColor="@color/black"
+                        android:textSize="10sp"
+                        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Suscipit tellus mauris a diam maecenas sed enim ut sem. Nec nam aliquam sem et. Mattis molestie a iaculis at erat. Ipsum faucibus vitae aliquet nec ullamcorper. Consequat ac felis donec et odio. Duis at tellus at urna condimentum. Nec ultrices dui sapien eget. Pharetra et ultrices neque ornare aenean euismod. Ut pharetra sit amet aliquam id diam maecenas ultricies. Pellentesque pulvinar pellentesque habitant morbi tristique senectus et. Elit ut aliquam purus sit amet luctus. Sit amet nisl purus in mollis nunc sed id. Vitae aliquet nec ullamcorper sit. At ultrices mi tempus imperdiet nulla malesuada pellentesque. At consectetur lorem donec massa sapien. Eu lobortis elementum nibh tellus molestie nunc non blandit massa. Cursus metus aliquam eleifend mi. Quis imperdiet massa tincidunt nunc pulvinar sapien et."/>
+
+            </androidx.cardview.widget.CardView>
+            <!--            PENUTUP FASILITAS 2-->
+
+            <!--            FASILITAS 3-->
+            <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="170dp"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="12dp"
+                    android:layout_marginBottom="12dp">
+
+                <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/labipa18"/>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="12dp"
+                    android:layout_marginBottom="12dp">
+
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/black"
+                        android:textSize="10dp"
+                        android:textStyle="bold"
+                        android:text="LAB IPA"/>
+
+                <TextView
+                        android:textAlignment="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginTop="20dp"
+                        android:textColor="@color/black"
+                        android:textSize="10sp"
+                        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Suscipit tellus mauris a diam maecenas sed enim ut sem. Nec nam aliquam sem et. Mattis molestie a iaculis at erat. Ipsum faucibus vitae aliquet nec ullamcorper. Consequat ac felis donec et odio. Duis at tellus at urna condimentum. Nec ultrices dui sapien eget. Pharetra et ultrices neque ornare aenean euismod. Ut pharetra sit amet aliquam id diam maecenas ultricies. Pellentesque pulvinar pellentesque habitant morbi tristique senectus et. Elit ut aliquam purus sit amet luctus. Sit amet nisl purus in mollis nunc sed id. Vitae aliquet nec ullamcorper sit. At ultrices mi tempus imperdiet nulla malesuada pellentesque. At consectetur lorem donec massa sapien. Eu lobortis elementum nibh tellus molestie nunc non blandit massa. Cursus metus aliquam eleifend mi. Quis imperdiet massa tincidunt nunc pulvinar sapien et."/>
+
+            </androidx.cardview.widget.CardView>
+            <!--            PENUTUP FASILITAS 3-->
+
+        </GridLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
